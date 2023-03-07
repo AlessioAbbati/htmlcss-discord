@@ -106,7 +106,8 @@ main section {
 footer {
 	padding-top: 4rem;
 	padding-bottom: 2rem;
-	background-color: black; /* TODO: check value */
+	background-color: black;
+	color: white;
 }
 
 .footer-list{
