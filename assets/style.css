@@ -173,3 +173,13 @@ footer .footer-bottom {
 	display: flex;
 	justify-content: space-between;
 }
+.footer-title {
+	color: #8C9EDF;
+}
+.ita {
+	width: 5%;
+	margin-top: 0.7rem;
+}
+.socials {
+	margin-top: 0.7rem;
+}
