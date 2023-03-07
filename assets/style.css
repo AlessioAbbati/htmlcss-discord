@@ -109,6 +109,14 @@ footer {
 	background-color: black; /* TODO: check value */
 }
 
+.footer-list{
+    list-style: none;
+    text-decoration: none;
+}
+
+.footer-list li{
+    padding-top: 0.5rem;
+}
 footer .footer-top {
 	display: flex;
 	margin-bottom: 2rem;
