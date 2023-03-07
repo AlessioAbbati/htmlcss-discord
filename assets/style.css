@@ -113,10 +113,21 @@ main section {
 main .container {
 	font-size: 1.5rem;
 }	
-
 .bkg-gray {
-	background-color: lightslategrey; /* TODO: check value */
+	position: relative;
 }
+.bkg-gray::before {
+	content: "";
+	background-image: url("../img/wave.svg");
+	opacity: 0.1;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-size: cover;
+}
+
 
 .section-feature .image {
 	flex: 0 0 60%;
