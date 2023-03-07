@@ -18,7 +18,7 @@
 
 .navbar {
 	height: 4rem; /* TODO: check the value */
-	background-color: cyan; /* TODO: check the value */
+    background-color:#255EE9;
 }
 
 .navbar .container {
@@ -26,6 +26,7 @@
 	justify-content: space-between;
 	align-items: stretch;
 	height: 100%;
+    background-color:#255EE9;
 }
 
 .navbar .container > * {
@@ -40,6 +41,7 @@
 
 .links {
     list-style: none;
+    color: white;
 }
 .jumbo .content {
 	max-width: 500px;
