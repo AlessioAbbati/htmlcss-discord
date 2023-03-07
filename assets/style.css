@@ -45,7 +45,11 @@
 	color: white;
 	cursor: pointer;
 }
+.jumbo .content .btns {
+	margin-top: 1rem;
+}
 .navbar .container > * {
+
 	display: flex;
 	align-items: center;
 }
@@ -129,6 +133,9 @@ main .container {
 	color: white;
 	cursor: pointer;
 	
+}
+.section-full .container .stars .btns {
+	margin-top: 1rem;
 }
 /* footer */
 
