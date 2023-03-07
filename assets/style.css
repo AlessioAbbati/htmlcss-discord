@@ -18,7 +18,7 @@
 /* header */
 
 .navbar {
-	height: 2rem; /* TODO: check the value */
+	height: 2rem; 
     background-color:#255EE9;
 }
 
@@ -29,7 +29,22 @@
 	height: 100%;
     background-color:#255EE9;
 }
-
+.btn {
+	border: 0;
+	border-radius: 2rem;
+	padding: 0.7rem 1rem;
+	background-color: white;
+	color: black;
+	cursor: pointer;
+}
+.btn.black {
+	border: 0;
+	border-radius: 2rem;
+	padding: 0.7rem 1rem;
+	background-color: black;
+	color: white;
+	cursor: pointer;
+}
 .navbar .container > * {
 	display: flex;
 	align-items: center;
@@ -63,7 +78,9 @@ li {
     background-size: cover;
     text-align: center;
 }
-
+.content  {
+	font-size: 1.3rem;
+}
 .title {
     padding-bottom: 1rem;
 }
@@ -89,7 +106,9 @@ main section {
     background-size: cover;
     text-align: center;
 }
-	
+main .container {
+	font-size: 1.5rem;
+}	
 
 .bkg-gray {
 	background-color: lightslategrey; /* TODO: check value */
@@ -102,7 +121,15 @@ main section {
 .section-feature .text {
 	flex: 0 0 40%;
 }
-
+.btn.cyan {
+	border: 0;
+	border-radius: 2rem;
+	padding: 0.7rem 1rem;
+	background-color: #8C9EDF;
+	color: white;
+	cursor: pointer;
+	
+}
 /* footer */
 
 footer {
