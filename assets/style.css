@@ -34,8 +34,7 @@
 	align-items: center;
 }
 
-.navbar .container > *:hover {
-	background-color: brown;
+li, .logo > *:hover {
 	cursor: pointer;
 }
 
@@ -43,6 +42,11 @@
     list-style: none;
     color: white;
 }
+li {
+    margin-right:  2rem;
+    cursor: pointer;
+}
+
 .jumbo .content {
 	max-width: 500px;
 	margin-inline: auto;
