@@ -72,6 +72,10 @@ li {
 main section {
 	padding-top: 3rem;
 	padding-bottom: 3rem;
+    
+}
+.text {
+    background-color: white;
 }
 
 .section-feature .container {
