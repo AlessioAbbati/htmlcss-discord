@@ -1,13 +1,9 @@
 
 
-.jumbo {
+.section-feature {
+	background-color: white;
+  
 	
-	min-height: 250px;
-}
-
-.section-feature .image {
-	background-color: aquamarine;
-	min-height: 250px;
 }
 
 .section-feature .text {

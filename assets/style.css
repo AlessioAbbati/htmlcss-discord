@@ -63,8 +63,9 @@ li {
 }
 
 .title {
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
 }
+
 
 /* main */
 
@@ -80,6 +81,8 @@ main section {
 .section-feature.reverse .container {
 	flex-direction: row-reverse;
 }
+
+	
 
 .bkg-gray {
 	background-color: lightslategrey; /* TODO: check value */
