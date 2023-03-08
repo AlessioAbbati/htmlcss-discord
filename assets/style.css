@@ -11,7 +11,12 @@
 a:hover {
 	color: yellow;
 }
+.logo:hover {
+	box-shadow: -4px -1px 21px 8px rgba(242,250,0,0.68);
+}
+
 .container {
+
 	max-width: 1000px;
 	margin-inline: auto;
 	padding-inline: 1rem;
