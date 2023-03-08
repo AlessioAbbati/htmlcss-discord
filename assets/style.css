@@ -8,7 +8,9 @@
 }
 
 /* general styles */
-
+a:hover {
+	color: yellow;
+}
 .container {
 	max-width: 1000px;
 	margin-inline: auto;
@@ -36,14 +38,11 @@
 	background-color: white;
 	color: black;
 	cursor: pointer;
+	
 }
 .btn.black {
-	border: 0;
-	border-radius: 2rem;
-	padding: 0.7rem 1rem;
 	background-color: black;
 	color: white;
-	cursor: pointer;
 }
 .jumbo .content .btns {
 	margin-top: 1rem;
@@ -57,11 +56,13 @@
 li, .logo > *:hover {
 	cursor: pointer;
 }
-
-
+a {
+	text-decoration: none;
+	color: white;
+}
 .links {
-    list-style: none;
-    color: white;
+	list-style: none;
+	
 }
 li {
     margin-right:  2rem;
@@ -126,6 +127,7 @@ main .container {
 	bottom: 0;
 	left: 0;
 	background-size: cover;
+	z-index: -1;
 }
 
 
@@ -137,14 +139,10 @@ main .container {
 	flex: 0 0 40%;
 }
 .btn.cyan {
-	border: 0;
-	border-radius: 2rem;
-	padding: 0.7rem 1rem;
 	background-color: #8C9EDF;
 	color: white;
-	cursor: pointer;
-	
 }
+
 .section-full .container .stars .btns {
 	margin-top: 1rem;
 }
@@ -169,7 +167,7 @@ footer .footer-top {
 	display: flex;
 	margin-bottom: 2rem;
 	padding-bottom: 2rem;
-	border-bottom: 3px solid white; /* TODO: check value */
+	border-bottom: 2px solid #8C9EDF; 
 }
 
 footer .column-socials {
